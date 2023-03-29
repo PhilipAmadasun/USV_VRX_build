@@ -1,5 +1,5 @@
 # VRX
-ROS melodic build for 
+ROS melodic build for [osrf/vrx repo](https://github.com/osrf/vrx)
 # How to install
 
 
@@ -19,7 +19,7 @@ sudo apt update \
         protobuf-compiler \
         python3-dbg \
         python3-pip \
-	       python3-scipy \
+        python3-scipy \
         python3-venv \
         qtbase5-dev \
         ruby \
