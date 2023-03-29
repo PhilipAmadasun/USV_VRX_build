@@ -1,10 +1,33 @@
-#VRX
+# VRX
 ROS melodic build for 
 # How to install
 
 
 ```
-sudo apt update
+sudo apt update \
+ && sudo apt install -y --no-install-recommends \
+        build-essential \
+        cmake \
+        cppcheck \
+        curl \
+        git \
+        gnupg \
+        libeigen3-dev \
+        libgles2-mesa-dev \
+        lsb-release \
+        pkg-config \
+        protobuf-compiler \
+        python3-dbg \
+        python3-pip \
+	       python3-scipy \
+        python3-venv \
+        qtbase5-dev \
+        ruby \
+        software-properties-common \
+        sudo \
+        wget \
+ && apt clean
+ 
 sudo apt full-upgrade
 
 sudo apt install -y build-essential cmake cppcheck curl git gnupg libeigen3-dev libgles2-mesa-dev lsb-release pkg-config protobuf-compiler qtbase5-dev python3-dbg python3-pip python3-venv ruby software-properties-common wget 
