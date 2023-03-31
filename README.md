@@ -4,8 +4,8 @@ ROS melodic build for [osrf/vrx repo](https://github.com/osrf/vrx)
 
 
 ```
-sudo apt update \
- && sudo apt install -y --no-install-recommends \
+sudo apt update  && \
+ sudo apt install -y --no-install-recommends \
         build-essential \
         cmake \
         cppcheck \
