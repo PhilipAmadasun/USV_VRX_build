@@ -1,7 +1,7 @@
 # VRX
 ROS melodic build for [osrf/vrx repo](https://github.com/osrf/vrx)
 # How to install
-Make sure you have ROS melodic installed.
+Make sure you have ROS melodic installed. Then follow the next steps.
 
 ```
 sudo apt update  && \
